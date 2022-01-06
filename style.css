@@ -1,12 +1,11 @@
 @font-face {
-    font-family: Caveat;
-     src: url("assets/fonts/Caveat/Caveat-VariableFont_wght.ttf");
+    font-family: Roboto;
+    src: url("assets/fonts/Roboto.ttf");
 }
 
 * {
     box-sizing: border-box;
 }
-
 
 body{
     min-height: 100vh;
@@ -17,13 +16,9 @@ body{
     justify-content: space-between;
 }
 
-.test_class{
-    background-color: aquamarine;
-}
-
 .header{
     border: 0px solid green;
-    background-color: rgb(215, 179, 248);
+    background-color: #bd9adf;
 }
 
 .main{
@@ -32,7 +27,7 @@ body{
 
 .footer{
     border: 0px solid blue;
-    background-color: rgb(215, 179, 248);
+    background-color: #d7b3f8;
 }
 
 .container{
@@ -42,19 +37,19 @@ body{
 
 .nav-list{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     list-style: none;
 }
 
 .nav-link {
-    padding: 0 20px;
+    padding: 10px;
     line-height: 50px;
     transition: 0.5s;
     text-decoration: none;
 }
 .nav-link:hover {
-    color: #280f30; 
+    color: #5607e7; 
 }
 
 html {
@@ -92,16 +87,19 @@ html {
     font-weight: 400;
     line-height: 1.5;
     color: #250d2c;
+    /* margin: 0 50px; */
   }
 
   .main-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    /* padding: 50px; */
+    margin: 0 100px;
   }
   
   .section {
-    width: 90%;
+    width: 50%;
   }
 
   @media (max-width: 768px) {
@@ -109,3 +107,10 @@ html {
       width: 100%;
     }
   }
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 100px;
+}
