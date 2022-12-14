@@ -19,3 +19,24 @@
 - Git, GitHub
 - VS Code, µVision IDE
 - C, C++, ASM
+
+## Code example:
+
+```
+function multiply(a, b){
+  return a * b
+}
+```
+
+## Education
+
+- **University:** Belarusian State University Of Informatics And Radioelectronics
+- **Courses:**
+  - [code-basics.com](https://code-basics.com/)
+  - [HTML Academy](https://htmlacademy.ru/)
+  - [freeСodeСamp](https://www.freecodecamp.org/)
+
+## Languages
+
+- Russian - native speaker
+- English - A2
