@@ -1,5 +1,6 @@
 :root {
   --color-text: #065754;
+  --color-background: #128682;
   --color-title: #DD721E;
   --color-subtitle: #128682;
   --color-link: #128682;
@@ -47,7 +48,7 @@ body {
 }
 
 .header {
-  background-color: #128682;
+  background-color: var(--color-background);
 }
 
 .nav-list {
@@ -101,6 +102,18 @@ a {
 a:hover {
   color: var(--color-hovered);
   transition: .3s;
+}
+
+.footer {
+  background-color: var(--color-background);
+  color: white;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 100px;
 }
 
 @media (max-width: 768px) {
